@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexora"
+version = "0.1.0"
+description = "A powerful, lightweight and easy-to-use Python utility library."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Sanogo" }
+]
+keywords = [
+    "python",
+    "utilities",
+    "automation",
+    "developer-tools"
+]
+
+[tool.setuptools.packages.find]
+include = ["nexora*"]
